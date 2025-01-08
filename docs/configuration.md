@@ -83,9 +83,11 @@
    - ComfyUI Server: Same as bot (use remote IP if on different machine)
 
 4. **Discord Settings**
+
+⚠️Requires Developer Mode for Copy ID functionality.  See [Discord Docs](https://support-dev.discord.com/hc/en-us/articles/360028717192-Where-can-I-find-my-Application-Team-Server-ID).  For Multiple IDs: Use comma separation (e.g., `123456789,987654321`).
+
    - Server IDs: Right-click server → Copy ID (e.g., `123456789,987654321,654321987`)
    - Channel IDs: Right-click channel → Copy ID (e.g., `123456789,987654321,654321987`)
-   - Multiple IDs: Use comma separation (e.g., `123456789,987654321`)
    - BOT_MANAGER_ROLE_ID (optional): For bot administration
      - This role is not required for the bot to work. It's an optional configuration that provides an additional
       way to grant certain users bot management permissions without giving them full Discord admin rights.    
