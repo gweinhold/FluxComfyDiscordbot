@@ -46,12 +46,7 @@
 ### 🛠️ Bot Configuration
 
 #### Initial Setup
-1. Create `.env` file in root directory:
-   ```env
-   COMMAND_PREFIX=/
-   ```
-
-2. Run Setup Tool:
+1. Run Setup Tool:
    ```bash
    python setup.py
    # or use Setup.exe
