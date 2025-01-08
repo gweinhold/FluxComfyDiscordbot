@@ -118,8 +118,8 @@ If you're still experiencing issues:
    - Look for error messages
 
 2. **Community Support**
-   - Join our [Discord Server](https://discord.gg/your-invite-link)
-   - Check [GitHub Issues](https://github.com/yourusername/comfyui-discord-bot/issues)
+   - Join our [Discord Server](https://discord.gg/V3pRgtzjsN)
+   - Check [GitHub Issues](https://github.com/nvmax/FluxComfyDiscordbot/issues)
    - Search existing solutions
 
 3. **Report a Bug**
@@ -129,7 +129,6 @@ If you're still experiencing issues:
       -cpu, gpu, ram, os, python version, etc.
 
 ## 🆘 Still Need Help?
-
 
 - Join our [Discord Server](https://discord.gg/V3pRgtzjsN)
 - Open an [Issue](https://github.com/nvmax/FluxComfyDiscordbot/issues)
