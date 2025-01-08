@@ -6,13 +6,14 @@
     - Please enable --listen on your comfyui server. 
     - example: ``.\python_embeded\python.exe -s ComfyUI\main.py --windows-standalone-build --listen``
 2. Launch Comfyui and load workflow.json from required_files and install missing nodes.
-      - if you are new or new installation please download [comfyui manager](https://github.com/ltdrdata/ComfyUI-Manager) before loading this workflow
+   - If you are new or new installation please download [comfyui manager](https://github.com/ltdrdata/ComfyUI-Manager) before loading this workflow
+   - From your web browser with ComfyUI loaded, click Workflow on top bar and select Open.  Navigate to your `\FluxComfyDiscordbot\required_files` directory and select `workflow.json`.  Ignore the "Missing Node Types" error.  In ComfyUI, choose "Manager" button on top right and select "Install Missing Custom Nodes".  Check the boxes for all items and choose "Install" on bottom left.  Once all are installed, restart ComfyUI.  The first restart of ComfyUI might take a few minutes after this install.
 
-3. Ensure you have Python 3.x installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+4. Ensure you have Python 3.x installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
 
-4. Install the required dependencies using the requirements.txt file: 
+5. Install the required dependencies using the requirements.txt file: 
  ```pip install -r requirements.txt```
-5. To get Redux working properly you will need to open Redux.json and Reduxprompt.json and install the missing nodes.
+6. To get Redux working properly you will need to open Redux.json and Reduxprompt.json and install the missing nodes.
    - depending on your setup you may need to edit the json files to select the version of dev flux you are using. 
    - In redux.json find and change the name to your checkpoint name.
 ``` 
